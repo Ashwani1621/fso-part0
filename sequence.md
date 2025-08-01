@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant Browser
     participant Server
@@ -17,3 +18,4 @@ sequenceDiagram
 
     Browser->>Server: GET /data.json
     Server-->>Browser: JSON (notes data)
+```
